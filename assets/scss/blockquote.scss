@@ -1,0 +1,16 @@
+.mdel-blockquote-content {
+  position: relative;
+
+  i,
+  svg {
+    font-size: 40px;
+    position: absolute;
+  }
+
+  blockquote {
+    margin: 0;
+    border: 0;
+    text-align: left;
+    line-height: 1.4em;
+  }
+}

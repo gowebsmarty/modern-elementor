@@ -1,0 +1,151 @@
+.elementor-element .mdel-tabs.mdel-tabs-vertical.mdel-tabs-boxed ul li {
+  border-right-width: 1px !important;
+}
+
+.mdel-tabs {
+  ul li a {
+    width: 100%;
+
+    i,
+    svg {
+      margin-right: 10px;
+    }
+  }
+
+  &.mdel-tabs-boxed ul li {
+    border-radius: 0 !important;
+    padding: 8px !important;
+    margin: 0 10px 10px 0 !important;
+  }
+
+  &.mdel-tabs-horizontal {
+    border: 0;
+
+    &.mdel-tabs-fullwidth ul li {
+      width: 100%;
+    }
+
+    &.mdel-tabs-leftalign ul {
+      justify-content: flex-start;
+    }
+
+    ul {
+      background: none;
+      border: 0;
+      text-align: center;
+      display: flex;
+      padding: 0;
+      justify-content: center;
+
+      li {
+        margin: 0;
+        padding: 5px;
+        border-radius: 0;
+        border: 1px solid #ddd;
+
+        &:first-child {
+          border-radius: 7px 0 0 7px;
+        }
+
+        &:last-child {
+          border-radius: 0 7px 7px 0;
+        }
+
+        &:not(.ui-state-active) {
+          opacity: 0.7;
+        }
+
+        a {
+          color: #666;
+        }
+
+        &.ui-state-active {
+          background: linear-gradient(180deg, #117fce, #025088);
+          border-color: #117fce;
+
+          a {
+            color: #fff;
+            outline: none;
+          }
+        }
+      }
+    }
+  }
+
+  &.mdel-tabs-vertical {
+    border: none !important;
+    padding: 0;
+
+    &.ui-tabs-vertical {
+      width: 100%;
+
+      .ui-tabs-nav {
+        padding: .2em .1em .2em .2em;
+        float: left;
+        width: 180px;
+
+        li {
+          clear: left;
+          width: 100%;
+          border-bottom-width: 1px !important;
+          border-right-width: 0 !important;
+          margin: 0 -1px .2em 0;
+
+          a {
+            display: block;
+          }
+
+          &.ui-tabs-active {
+            padding-bottom: 0;
+            padding-right: .1em;
+            border-right-width: 1px;
+          }
+        }
+      }
+
+      .ui-tabs-panel {
+        padding: 0;
+        float: right;
+        width: calc(100% - 200px);
+      }
+    }
+
+    &.mdel-tabs-boxed ul:before {
+      display: none;
+    }
+
+    ul {
+      background: none;
+      border: none;
+      padding: 0 !important;
+
+      li {
+        padding: 12px !important;
+        opacity: 0.7;
+
+        a {
+          outline: none;
+        }
+
+        &.ui-state-active {
+          background: linear-gradient(90deg, #117fce, #025088);
+          border-color: #117fce;
+          opacity: 1;
+        }
+      }
+
+      &:before {
+        content: '';
+        display: block;
+        width: 1px;
+        background: #ddd;
+        height: 100%;
+        position: absolute;
+        left: 180px;
+      }
+
+    }
+
+  }
+
+}

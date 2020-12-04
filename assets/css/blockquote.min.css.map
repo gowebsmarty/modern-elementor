@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,wBAAwB,AAAC,CACvB,QAAQ,CAAE,QAAQ,CAcnB,AAfD,AAGE,wBAHsB,CAGtB,CAAC,CAHH,wBAAwB,CAItB,GAAG,AAAC,CACF,SAAS,CAAE,IAAI,CACf,QAAQ,CAAE,QAAQ,CACnB,AAPH,AASE,wBATsB,CAStB,UAAU,AAAC,CACT,MAAM,CAAE,CAAC,CACT,MAAM,CAAE,CAAC,CACT,UAAU,CAAE,IAAI,CAChB,WAAW,CAAE,KAAK,CACnB",
+    "sources": [
+        "../scss/blockquote.scss"
+    ],
+    "names": [],
+    "file": "blockquote.min.css"
+}

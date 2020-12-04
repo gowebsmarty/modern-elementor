@@ -1,0 +1,333 @@
+.me-widget-icon:after {
+  content: 'ME';
+  font-weight: bold;
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  font-size: 9px;
+  padding: 1px 2px;
+  line-height: 10px;
+  display: inline-block;
+  border-radius: 2px;
+  font-family: "Open Sans", Roboto, Helvetica, Arial, sans-serif;
+  border: 1px solid #dedede;
+}
+
+li#toplevel_page_modern-addons img {
+  padding: 6px 0px !important;
+  max-width: 22px;
+}
+
+#modern-addons-admin {
+  padding: 60px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#modern-addons-admin button {
+  padding: 15px 20px;
+  background: #cd08c2;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#modern-addons-admin button:hover {
+  background: #6200bd;
+}
+
+.mdel-sidebar {
+  width: 300px;
+  min-width: 300px;
+}
+
+.mdel-sidebar .mdel-logo {
+  max-width: 220px;
+  margin-bottom: 20px;
+}
+
+.mdel-content {
+  width: calc(100% - 340px);
+  margin-left: 40px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.mdel-content img {
+  max-width: 100%;
+}
+
+.mdel-content .mdel-inner-section {
+  display: none;
+}
+
+.mdel-content .mdel-inner-section.active {
+  display: block;
+}
+
+.mdel-inner-section .mdel-head {
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #ddd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.mdel-inner-section .mdel-head h3 {
+  font-size: 30px;
+  color: #cd08c2;
+}
+
+.mdel-inner-section .mdel-head button {
+  padding: 15px 20px;
+  background: #cd08c2;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.mdel-inner-section .mdel-head button:hover {
+  background: #6200bd;
+}
+
+.mdel-sidebar a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #fafafa;
+  margin-top: 10px;
+  border-left: 3px solid #cd08c1;
+  padding: 0 10px;
+  text-decoration: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 1px;
+}
+
+.mdel-sidebar a i,
+.mdel-sidebar a svg {
+  font-size: 26px;
+  margin: 0 15px 0 5px;
+  color: #cd08c1;
+}
+
+.mdel-sidebar a h3 {
+  color: #444;
+}
+
+.mdel-sidebar a.active h3,
+.mdel-sidebar a.active i,
+.mdel-sidebar a.active svg {
+  color: #cd08c1;
+}
+
+.mdel-sidebar a:hover {
+  background: #ddd;
+}
+
+#modern-addons-admin .mdel-sidebar a:focus {
+  outline: 0px !important;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.mdel-content .mdel-inner-section p {
+  font-size: 18px;
+  color: #666;
+}
+
+.mdel-color-scheme {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.mdel-color-scheme span {
+  margin: 10px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.mdel-color-scheme span input {
+  width: 130px;
+  height: 130px;
+  opacity: 0;
+}
+
+.mdel-color-scheme span input:checked + span {
+  display: block;
+}
+
+.mdel-color-scheme span span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 5px dashed #333;
+  margin: 0;
+  display: none;
+  -webkit-box-shadow: 0px 0px 10px #666;
+          box-shadow: 0px 0px 10px #666;
+}
+
+.mdel-custom-colors input {
+  border: 1px solid #ddd;
+  font-size: 20px;
+  padding: 0px 10px;
+}
+
+.available-wdgt input {
+  display: none;
+}
+
+.available-wdgt input, .available-wdgt input:after, .available-wdgt input:before,
+.available-wdgt input *,
+.available-wdgt input *:after,
+.available-wdgt input *:before,
+.available-wdgt input + label {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.available-wdgt input::-moz-selection, .available-wdgt input:after::-moz-selection, .available-wdgt input:before::-moz-selection,
+.available-wdgt input *::-moz-selection,
+.available-wdgt input *:after::-moz-selection,
+.available-wdgt input *:before::-moz-selection,
+.available-wdgt input + label::-moz-selection {
+  background: none;
+}
+
+.available-wdgt input::selection, .available-wdgt input:after::selection, .available-wdgt input:before::selection,
+.available-wdgt input *::selection,
+.available-wdgt input *:after::selection,
+.available-wdgt input *:before::selection,
+.available-wdgt input + label::selection {
+  background: none;
+}
+
+.available-wdgt input + label {
+  outline: 0;
+  display: block;
+  width: 4em;
+  height: 2em;
+  position: relative;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.available-wdgt input + label:after, .available-wdgt input + label:before {
+  position: relative;
+  display: block;
+  content: "";
+  width: 50%;
+  height: 100%;
+}
+
+.available-wdgt input + label:after {
+  left: 0;
+}
+
+.available-wdgt input + label:before {
+  display: none;
+}
+
+.available-wdgt input:checked + label:after {
+  left: 50%;
+}
+
+.toggle-light + label {
+  background: #f0f0f0;
+  border-radius: 2em;
+  padding: 2px;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+.toggle-light + label:after {
+  border-radius: 50%;
+  background: #fff;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.toggle-light:checked + label {
+  background: #cd08c2;
+}
+
+.mdel-active-widgets {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.mdel-active-widgets .available-wdgt {
+  width: 30%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.mdel-active-widgets .available-wdgt h4 {
+  font-size: 21px;
+  color: #555;
+}
+
+.mdel-review-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.mdel-review-box img {
+  float: left;
+  max-width: 60px;
+  margin-right: 10px;
+}
+
+.mdel-admin-review {
+  padding: 15px;
+}
+
+a.mdelrevbtn {
+  background: #eee;
+  text-decoration: none;
+  padding: 7px 13px;
+  margin-right: 7px;
+  border-radius: 3px;
+}
+
+a.mdel-lets-review.mdelrevbtn {
+  background: #0073aa;
+  color: #fff;
+}
+/*# sourceMappingURL=mdel-admin.css.map */

@@ -1,0 +1,155 @@
+.elementor-element .mdel-tabs.mdel-tabs-vertical.mdel-tabs-boxed ul li {
+  border-right-width: 1px !important;
+}
+
+.mdel-tabs ul li a {
+  width: 100%;
+}
+
+.mdel-tabs ul li a i,
+.mdel-tabs ul li a svg {
+  margin-right: 10px;
+}
+
+.mdel-tabs.mdel-tabs-boxed ul li {
+  border-radius: 0 !important;
+  padding: 8px !important;
+  margin: 0 10px 10px 0 !important;
+}
+
+.mdel-tabs.mdel-tabs-horizontal {
+  border: 0;
+}
+
+.mdel-tabs.mdel-tabs-horizontal.mdel-tabs-fullwidth ul li {
+  width: 100%;
+}
+
+.mdel-tabs.mdel-tabs-horizontal.mdel-tabs-leftalign ul {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.mdel-tabs.mdel-tabs-horizontal ul {
+  background: none;
+  border: 0;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mdel-tabs.mdel-tabs-horizontal ul li {
+  margin: 0;
+  padding: 5px;
+  border-radius: 0;
+  border: 1px solid #ddd;
+}
+
+.mdel-tabs.mdel-tabs-horizontal ul li:first-child {
+  border-radius: 7px 0 0 7px;
+}
+
+.mdel-tabs.mdel-tabs-horizontal ul li:last-child {
+  border-radius: 0 7px 7px 0;
+}
+
+.mdel-tabs.mdel-tabs-horizontal ul li:not(.ui-state-active) {
+  opacity: 0.7;
+}
+
+.mdel-tabs.mdel-tabs-horizontal ul li a {
+  color: #666;
+}
+
+.mdel-tabs.mdel-tabs-horizontal ul li.ui-state-active {
+  background: -webkit-gradient(linear, left top, left bottom, from(#117fce), to(#025088));
+  background: linear-gradient(180deg, #117fce, #025088);
+  border-color: #117fce;
+}
+
+.mdel-tabs.mdel-tabs-horizontal ul li.ui-state-active a {
+  color: #fff;
+  outline: none;
+}
+
+.mdel-tabs.mdel-tabs-vertical {
+  border: none !important;
+  padding: 0;
+}
+
+.mdel-tabs.mdel-tabs-vertical.ui-tabs-vertical {
+  width: 100%;
+}
+
+.mdel-tabs.mdel-tabs-vertical.ui-tabs-vertical .ui-tabs-nav {
+  padding: .2em .1em .2em .2em;
+  float: left;
+  width: 180px;
+}
+
+.mdel-tabs.mdel-tabs-vertical.ui-tabs-vertical .ui-tabs-nav li {
+  clear: left;
+  width: 100%;
+  border-bottom-width: 1px !important;
+  border-right-width: 0 !important;
+  margin: 0 -1px .2em 0;
+}
+
+.mdel-tabs.mdel-tabs-vertical.ui-tabs-vertical .ui-tabs-nav li a {
+  display: block;
+}
+
+.mdel-tabs.mdel-tabs-vertical.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active {
+  padding-bottom: 0;
+  padding-right: .1em;
+  border-right-width: 1px;
+}
+
+.mdel-tabs.mdel-tabs-vertical.ui-tabs-vertical .ui-tabs-panel {
+  padding: 0;
+  float: right;
+  width: calc(100% - 200px);
+}
+
+.mdel-tabs.mdel-tabs-vertical.mdel-tabs-boxed ul:before {
+  display: none;
+}
+
+.mdel-tabs.mdel-tabs-vertical ul {
+  background: none;
+  border: none;
+  padding: 0 !important;
+}
+
+.mdel-tabs.mdel-tabs-vertical ul li {
+  padding: 12px !important;
+  opacity: 0.7;
+}
+
+.mdel-tabs.mdel-tabs-vertical ul li a {
+  outline: none;
+}
+
+.mdel-tabs.mdel-tabs-vertical ul li.ui-state-active {
+  background: -webkit-gradient(linear, left top, right top, from(#117fce), to(#025088));
+  background: linear-gradient(90deg, #117fce, #025088);
+  border-color: #117fce;
+  opacity: 1;
+}
+
+.mdel-tabs.mdel-tabs-vertical ul:before {
+  content: '';
+  display: block;
+  width: 1px;
+  background: #ddd;
+  height: 100%;
+  position: absolute;
+  left: 180px;
+}
+/*# sourceMappingURL=tabs.css.map */

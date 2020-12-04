@@ -1,0 +1,17 @@
+.mdel-blockquote-content {
+  position: relative;
+}
+
+.mdel-blockquote-content i,
+.mdel-blockquote-content svg {
+  font-size: 40px;
+  position: absolute;
+}
+
+.mdel-blockquote-content blockquote {
+  margin: 0;
+  border: 0;
+  text-align: left;
+  line-height: 1.4em;
+}
+/*# sourceMappingURL=blockquote.css.map */

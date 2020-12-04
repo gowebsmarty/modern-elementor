@@ -1,0 +1,64 @@
+.mdel-vimg-card {
+  display: flex;
+  background: #fafafa;
+
+  .mdel-vimg-block {
+    width: 50%;
+    position: relative;
+    overflow: hidden;
+
+    .mdel-vimg-inner {
+      transition: all 1s ease;
+    }
+
+    div {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-size: cover !important;
+    }
+
+    .mdel-second-vimg {
+      left: 100% !important;
+    }
+  }
+
+  .mdel-vimg-content {
+    width: 50%;
+    padding: 40px;
+  }
+
+  &:hover .mdel-vimg-inner {
+    transform: translateX(-100%);
+  }
+
+  &.mdel-vimg-align-right {
+    flex-direction: row-reverse;
+
+    .mdel-vimg-inner {
+      transform: translateX(-100%);
+    }
+
+    &:hover .mdel-vimg-inner {
+      transform: translateX(0%);
+    }
+  }
+
+}
+
+@media(max-width:768px) {
+  .mdel-vimg-card {
+    flex-direction: column !important;
+  }
+
+  .mdel-vimg-card .mdel-vimg-block,
+  .mdel-vimg-card .mdel-vimg-content {
+    width: 100%;
+  }
+
+  .mdel-vimg-card .mdel-vimg-block {
+    min-height: 500px;
+  }
+}

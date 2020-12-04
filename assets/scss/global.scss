@@ -1,0 +1,87 @@
+@import "fancy-image-text";
+@import "fancy-button";
+@import "fancy-heading";
+@import "flip-box";
+@import "icon-box";
+@import "pop-content";
+@import "blockquote";
+@import "tabs";
+@import "accordion";
+@import "horizontalimage";
+@import "pricingtable";
+@import "teammember";
+@import "testimonials";
+@import "contactform7";
+
+
+/** Before after slider **/
+
+.mdel-ba-slider .resize img {
+  max-width: 9999px;
+}
+
+/** Global **/
+
+.mdel-icon-align-right {
+  flex-direction: row-reverse;
+}
+
+.mdel-font-weight-normal {
+  font-weight: 400;
+}
+
+.mdel-font-weight-semibold {
+  font-weight: 600;
+}
+
+.mdel-font-weight-bold {
+  font-weight: 800;
+}
+
+.mdel-direction-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.mdel-justify-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.mdel-justify-left {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.mdel-justify-right {
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.mdel-text-align-center {
+  text-align: center;
+}
+
+.mdel-text-align-left {
+  text-align: left;
+}
+
+.mdel-text-align-right {
+  text-align: right;
+}
+
+@media(min-width:991px) {
+  .mdel-flex-direction-horizontal {
+    flex-direction: row !important;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media(max-width:768px) {
+  .mdel-flex-direction-horizontal {
+    flex-direction: row !important;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

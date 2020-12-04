@@ -1,0 +1,121 @@
+// .mdel-contact-form7 {
+//   margin: 40px 0;
+
+//   input:not(.wpcf7-submit) {
+//     border-top: none;
+//     border-left: none;
+//     border-right: none;
+//   }
+
+//   .mdel-label {
+//     display: flex;
+//     z-index: 10;
+//     font-size: 18px;
+//     position: absolute;
+//     left: 15px;
+//     right: 0;
+//     top: 0;
+//     bottom: 0;
+//     align-items: center;
+//     color: #aaa;
+//     transition: all 0.5s ease;
+//   }
+
+//   label {
+//     position: relative;
+//     display: inline-block;
+//     width: 100%;
+//   }
+
+//   .mdel-label br {
+//     display: none;
+//   }
+
+//   p {
+//     padding: 20px 0;
+//     margin-bottom: 0px !important;
+//   }
+
+//   input:not(.wpcf7-submit) {
+//     border-bottom: 1px solid #eee;
+//     background: #fafafa !important;
+//   }
+// }
+
+.mdel-contact-form7 input:not(.wpcf7-submit),
+.mdel-contact-form7 textarea {
+  background: #fafafa;
+  border: 1px solid #eee;
+}
+
+.mdel-contact-form7 .mdel-label {
+  /* background: #f1f1f1; */
+  display: inline-block;
+  padding: 3px 10px 3px 3px;
+  /* margin-bottom: -2px; */
+  position: relative;
+  z-index: 1;
+  /* border: 1px solid #eee; */
+  /* border-bottom: none; */
+  color: #888;
+  font-weight: 500;
+}
+
+.mdel-contact-form7 .mdel-label br {
+  display: none;
+}
+
+.mdel-contact-form7 input[type="text"],
+.mdel-contact-form7 input[type="email"] {
+  display: block;
+  width: 100%;
+}
+
+.mdel-contact-form7 .wpcf7-submit {
+  font-size: 18px;
+  letter-spacing: 1px;
+  height: auto;
+  padding: 13px 40px;
+  background: #bd0066;
+  border-radius: 3px;
+}
+
+.mdel-contact-form7 input:not(.wpcf7-submit):focus,
+.mdel-contact-form7 textarea:focus {
+  background: #fafafa;
+}
+
+.wpcf7-response-output {
+  border-top: none !important;
+  border-right: none !important;
+  border-bottom: none !important;
+  background: #f1f1f1;
+  border-left-width: 3px !important;
+  margin: 20px 2px !important;
+  padding: 6px 13px !important;
+}
+
+.mdel-contact-form7 {
+  margin: 20px 0;
+}
+
+.mdel-contact-form7.mdel-inside-labels .mdel-label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #444;
+  color: #eee;
+  padding: 3px 12px;
+  border-radius: 5px 0;
+  font-size: 13px;
+}
+
+.mdel-contact-form7.mdel-inside-labels label {
+  position: relative;
+  display: block;
+}
+
+.mdel-contact-form7.mdel-inside-labels input:not(.wpcf7-submit),
+.mdel-contact-form7.mdel-inside-labels textarea {
+  padding-top: 30px;
+}

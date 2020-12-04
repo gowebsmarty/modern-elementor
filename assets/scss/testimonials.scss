@@ -1,0 +1,86 @@
+.mdel-testimonials-carousel {
+  ul {
+    margin: 0;
+    list-style: none;
+
+    li {
+      padding: 20px;
+    }
+
+    i,
+    svg {
+      font-size: 26px;
+      margin-right: 5px;
+    }
+
+    .mdel-testimony {
+      font-size: 21px;
+      margin-bottom: 60px;
+    }
+
+    .mdel-testimonial-writer {
+      margin-top: 30px;
+      display: flex;
+
+      img {
+        margin: 0 20px 20px 0;
+        border-radius: 50%;
+        max-width: 100px;
+      }
+
+      h4 {
+        margin: 10px 0 5px 0;
+        font-weight: 600;
+      }
+
+      small {
+        font-size: 15px;
+        opacity: 0.9;
+      }
+    }
+
+    &.mdel-testimonial-align-center {
+      .mdel-testimonial-rating {
+        text-align: center;
+      }
+
+      .mdel-testimonial-writer {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        img {
+          margin: 10px;
+        }
+      }
+    }
+
+    &.mdel-testimonial-align-right {
+      .mdel-testimonial-rating {
+        text-align: right;
+      }
+
+      .mdel-testimonial-writer {
+        justify-content: flex-start;
+        flex-direction: row-reverse;
+        text-align: right;
+
+        img {
+          margin: 0 0 0 20px;
+        }
+      }
+    }
+  }
+
+  .bx-wrapper {
+    box-shadow: none;
+    background: transparent;
+    border: none;
+  }
+
+  /** hide arrows **/
+  .bx-controls-direction {
+    display: none;
+  }
+}

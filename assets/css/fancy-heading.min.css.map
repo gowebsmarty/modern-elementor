@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,mBAAmB,AAAC,CAClB,aAAa,CAAE,YAAY,CAC3B,OAAO,CAAE,gBAAgB,CAoB1B,AAtBD,AAIE,mBAJiB,AAIhB,2BAA2B,AAAC,CAC3B,eAAe,CAAE,IAAI,CACrB,uBAAuB,CAAE,IAAI,CAC7B,OAAO,CAAE,YAAY,CACrB,KAAK,CAAE,sBAAsB,CAC7B,eAAe,CAAE,eAAe,CACjC,AAVH,AAYE,mBAZiB,AAYhB,wBAAwB,AAAC,CACxB,eAAe,CAAE,IAAI,CACrB,uBAAuB,CAAE,IAAI,CAC7B,eAAe,CAAE,gBAAgB,CACjC,OAAO,CAAE,YAAY,CACrB,KAAK,CAAE,sBAAsB,CAC7B,iBAAiB,CAAE,SAAS,CAC5B,mBAAmB,CAAE,aAAa,CACnC",
+    "sources": [
+        "../scss/fancy-heading.scss"
+    ],
+    "names": [],
+    "file": "fancy-heading.min.css"
+}

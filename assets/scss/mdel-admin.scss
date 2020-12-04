@@ -1,0 +1,295 @@
+.me-widget-icon:after {
+  content: 'ME';
+  font-weight: bold;
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  font-size: 9px;
+  padding: 1px 2px;
+  line-height: 10px;
+  display: inline-block;
+  border-radius: 2px;
+  font-family: "Open Sans", Roboto, Helvetica, Arial, sans-serif;
+  border: 1px solid #dedede;
+}
+
+li#toplevel_page_modern-addons img {
+  padding: 6px 0px !important;
+  max-width: 22px;
+}
+
+#modern-addons-admin {
+  padding: 60px 20px;
+  display: flex;
+
+  button {
+    padding: 15px 20px;
+    background: #cd08c2;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+
+    &:hover {
+      background: #6200bd;
+    }
+  }
+}
+
+.mdel-sidebar {
+  width: 300px;
+  min-width: 300px;
+
+  .mdel-logo {
+    max-width: 220px;
+    margin-bottom: 20px;
+  }
+}
+
+.mdel-content {
+  width: calc(100% - 340px);
+  margin-left: 40px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+
+  img {
+    max-width: 100%;
+  }
+
+  .mdel-inner-section {
+    display: none;
+
+    &.active {
+      display: block;
+    }
+  }
+}
+
+.mdel-inner-section .mdel-head {
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  h3 {
+    font-size: 30px;
+    color: #cd08c2;
+  }
+
+  button {
+    padding: 15px 20px;
+    background: #cd08c2;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+
+    &:hover {
+      background: #6200bd;
+    }
+  }
+}
+
+.mdel-sidebar a {
+  display: flex;
+  background: #fafafa;
+  margin-top: 10px;
+  border-left: 3px solid #cd08c1;
+  padding: 0 10px;
+  text-decoration: none;
+  align-items: center;
+  letter-spacing: 1px;
+
+  i,
+  svg {
+    font-size: 26px;
+    margin: 0 15px 0 5px;
+    color: #cd08c1;
+  }
+
+  h3 {
+    color: #444;
+  }
+}
+
+.mdel-sidebar a.active h3,
+.mdel-sidebar a.active i,
+.mdel-sidebar a.active svg {
+  color: #cd08c1;
+}
+
+.mdel-sidebar a:hover {
+  background: #ddd;
+}
+
+#modern-addons-admin .mdel-sidebar a:focus {
+  outline: 0px !important;
+  box-shadow: none;
+}
+
+.mdel-content .mdel-inner-section p {
+  font-size: 18px;
+  color: #666;
+}
+
+.mdel-color-scheme {
+  display: flex;
+  flex-wrap: wrap;
+
+  span {
+    margin: 10px;
+    border-radius: 5px;
+    position: relative;
+
+    input {
+      width: 130px;
+      height: 130px;
+      opacity: 0;
+    }
+  }
+
+  span input:checked+span {
+    display: block;
+  }
+
+  span span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 5px dashed #333;
+    margin: 0;
+    display: none;
+    box-shadow: 0px 0px 10px #666;
+  }
+}
+
+.mdel-custom-colors input {
+  border: 1px solid #ddd;
+  font-size: 20px;
+  padding: 0px 10px;
+}
+
+//toggle input
+.available-wdgt input {
+  display: none;
+
+  // add default box-sizing for this scope
+  &,
+  &:after,
+  &:before,
+  & *,
+  & *:after,
+  & *:before,
+  &+label {
+    box-sizing: border-box;
+
+    &::selection {
+      background: none;
+    }
+  }
+
+  +label {
+    outline: 0;
+    display: block;
+    width: 4em;
+    height: 2em;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+
+    &:after,
+    &:before {
+      position: relative;
+      display: block;
+      content: "";
+      width: 50%;
+      height: 100%;
+    }
+
+    &:after {
+      left: 0;
+    }
+
+    &:before {
+      display: none;
+    }
+  }
+
+  &:checked+label:after {
+    left: 50%;
+  }
+}
+
+// themes
+.toggle-light {
+  +label {
+    background: #f0f0f0;
+    border-radius: 2em;
+    padding: 2px;
+    transition: all .4s ease;
+
+    &:after {
+      border-radius: 50%;
+      background: #fff;
+      transition: all .2s ease;
+    }
+  }
+
+  &:checked+label {
+    background: #cd08c2;
+  }
+}
+
+.mdel-active-widgets {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  .available-wdgt {
+    width: 30%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+
+    h4 {
+      font-size: 21px;
+      color: #555;
+    }
+  }
+}
+
+//review request box
+
+.mdel-review-box {
+  display: flex;
+  margin-bottom: 20px;
+
+  img {
+    float: left;
+    max-width: 60px;
+    margin-right: 10px;
+  }
+}
+
+.mdel-admin-review {
+  padding: 15px;
+}
+
+a.mdelrevbtn {
+  background: #eee;
+  text-decoration: none;
+  padding: 7px 13px;
+  margin-right: 7px;
+  border-radius: 3px;
+}
+
+a.mdel-lets-review.mdelrevbtn {
+  background: #0073aa;
+  color: #fff;
+}

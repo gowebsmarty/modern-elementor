@@ -1,0 +1,99 @@
+.mdel-testimonials-carousel {
+  /** hide arrows **/
+}
+
+.mdel-testimonials-carousel ul {
+  margin: 0;
+  list-style: none;
+}
+
+.mdel-testimonials-carousel ul li {
+  padding: 20px;
+}
+
+.mdel-testimonials-carousel ul i,
+.mdel-testimonials-carousel ul svg {
+  font-size: 26px;
+  margin-right: 5px;
+}
+
+.mdel-testimonials-carousel ul .mdel-testimony {
+  font-size: 21px;
+  margin-bottom: 60px;
+}
+
+.mdel-testimonials-carousel ul .mdel-testimonial-writer {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.mdel-testimonials-carousel ul .mdel-testimonial-writer img {
+  margin: 0 20px 20px 0;
+  border-radius: 50%;
+  max-width: 100px;
+}
+
+.mdel-testimonials-carousel ul .mdel-testimonial-writer h4 {
+  margin: 10px 0 5px 0;
+  font-weight: 600;
+}
+
+.mdel-testimonials-carousel ul .mdel-testimonial-writer small {
+  font-size: 15px;
+  opacity: 0.9;
+}
+
+.mdel-testimonials-carousel ul.mdel-testimonial-align-center .mdel-testimonial-rating {
+  text-align: center;
+}
+
+.mdel-testimonials-carousel ul.mdel-testimonial-align-center .mdel-testimonial-writer {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.mdel-testimonials-carousel ul.mdel-testimonial-align-center .mdel-testimonial-writer img {
+  margin: 10px;
+}
+
+.mdel-testimonials-carousel ul.mdel-testimonial-align-right .mdel-testimonial-rating {
+  text-align: right;
+}
+
+.mdel-testimonials-carousel ul.mdel-testimonial-align-right .mdel-testimonial-writer {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  text-align: right;
+}
+
+.mdel-testimonials-carousel ul.mdel-testimonial-align-right .mdel-testimonial-writer img {
+  margin: 0 0 0 20px;
+}
+
+.mdel-testimonials-carousel .bx-wrapper {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background: transparent;
+  border: none;
+}
+
+.mdel-testimonials-carousel .bx-controls-direction {
+  display: none;
+}
+/*# sourceMappingURL=testimonials.css.map */
